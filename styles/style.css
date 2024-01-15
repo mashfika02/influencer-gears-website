@@ -102,3 +102,68 @@ margin-top: 20px;
    line-height: normal;
    margin-top: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive  */
+@media screen and (max-width: 567px) {
+        nav , .banner-conatiner{
+            flex-direction: column;
+        }
+        nav {
+            
+            text-align: center;
+            align-items: center;
+            padding: 20px 10px;
+        }
+        nav .nav-title{
+            padding: 20px;
+        }
+
+        nav li{
+            padding: 0px;
+            display: grid;
+            grid-area: auto;
+        }
+        .banner-conatiner{
+        flex-direction: column-reverse;
+        width:80%;
+        text-align: center;
+        justify-content: center; 
+         margin-right:0px;
+         padding-left: 40px;
+         padding-right: 0px;
+         gap:10px
+        }
+        .banner-img{
+            background-position: center;
+            justify-content: center;
+            width: 400px;
+           height: 400px;
+           
+        }
+        .banner-img img{
+        background-position: center;
+        justify-content: center;
+
+        width: 350px;
+        
+
+        }
+        .banner-content{
+            margin-top: 20px;
+            width: 404px;
+            height: 78px;
+            flex-shrink: 0;
+        }
+    }
