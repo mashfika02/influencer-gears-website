@@ -194,6 +194,7 @@ margin-top: 14px;
     align-items: center;
     margin-top: 100px;
     margin-left: 30px;
+  
 }
 .content-title{
     color: #0A0826;
@@ -225,7 +226,33 @@ line-height: normal;
 margin-top: 20px;
 }
 
+/* footer style */
 
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal; 
+    padding: 4px;   
+}
+.footer-p{
+    color:  #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    padding: 4px;   
+
+}
+.social-logo{
+      padding-top: 17px;
+      padding-bottom: 30px;
+}
 
 
 
