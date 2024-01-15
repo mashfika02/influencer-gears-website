@@ -116,9 +116,64 @@ margin-top: 20px;
     border-bottom: 1px solid lightgray;
     margin-top: 100px;
     
+    
 
+}   
+
+/* main style  */
+main{
+    
+        max-width: 1440px;
+        margin: 100px 100px;
+    
+}
+/* card style */
+
+.first{
+    margin: 40px 100px;
+}
+.first .first-header{
+    text-align: center;
+    margin-bottom:50px ;
+    
 }
 
+.card{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+
+.card-name{
+color:  #18191F;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+margin-top: 14px;
+
+}
+.card-price{
+    color:  rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-top: 6px;    
+}
+.card-paragraph{
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0.252px;    
+}
 
 
 
@@ -171,15 +226,31 @@ margin-top: 20px;
         .banner-img img{
         background-position: center;
         justify-content: center;
-
         width: 350px;
-        
-
         }
         .banner-content{
             margin-top: 20px;
             width: 404px;
             height: 78px;
             flex-shrink: 0;
+        }
+
+        .sponsors-img-container{
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px 20px;
+            margin-top: 300px;
+        }
+        .first{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+      
+        .card-container{
+            grid-template-columns: 1fr;
+            padding: 20px 20px;
+            justify-content: center;
+
         }
     }
